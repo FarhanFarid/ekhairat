@@ -11,7 +11,7 @@
 				<div class="d-flex flex-lg-row-fluid">
 
 					<div class="d-flex flex-column flex-center pb-0 pb-lg-10 p-10 w-100">
-						<img class="mx-auto mw-100 w-150px w-lg-300px mb-10 mb-lg-20" src="{{asset('media/logo/ekhairat-logo.png')}}" alt="" />
+						<img class="mx-auto mw-150 w-200px w-lg-400px mb-10 mb-lg-20" src="{{asset('media/logo/ekhairat-logo.png')}}" alt="" />
 						<h1 class="text-gray-800 fs-2qx fw-bold text-center mb-7">Welcome to Mahkota Hills</h1>
 						<div class="text-gray-600 fs-base text-center fw-semibold">
                             This is a centralize system for people in Mahkota Hills.

@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthenticationController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\SettingController;
+
 
 
 Route::get('/', function () {
@@ -26,6 +28,6 @@ Route::group(['prefix' => 'dashboard'], function () {
 });
 
 
-Route::group(['prefix' => 'dashboard', 'middleware' => 'auth', ], function () {
-    Route::get('/', [DashboardController::class, 'index'])->name('dashboard.index');
+Route::group(['prefix' => 'settings', 'middleware' => 'auth', ], function () {
+    Route::get('/', [SettingController::class, 'index'])->name('settings.index');
 });
